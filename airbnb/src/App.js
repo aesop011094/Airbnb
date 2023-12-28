@@ -1,7 +1,16 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Card from "./components/Card"
+import "./style.css"
 
 function App() {
   return (
-    <h1>App component</h1>
+    <div>
+      <Navbar/>
+      <Hero/>
+      <Card/>
+    </div>
+    
   );
 }
 
